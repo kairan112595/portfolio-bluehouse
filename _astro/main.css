@@ -1,0 +1,32 @@
+[data-astro-transition-scope="astro-smooz4hq-1"] {
+    view-transition-name: none;
+}
+
+@layer astro {
+    ::view-transition-old(none) {
+        animation: none;
+        opacity: 0;
+        mix-blend-mode: normal;
+    }
+
+    ::view-transition-new(none) {
+        animation: none;
+        mix-blend-mode: normal;
+    }
+
+    ::view-transition-group(none) {
+        animation: none
+    }
+}
+
+[data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-smooz4hq-1"],
+[data-astro-transition-fallback="old"][data-astro-transition-scope="astro-smooz4hq-1"] {
+    animation: none;
+    mix-blend-mode: normal;
+}
+
+[data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-smooz4hq-1"],
+[data-astro-transition-fallback="new"][data-astro-transition-scope="astro-smooz4hq-1"] {
+    animation: none;
+    mix-blend-mode: normal;
+}
